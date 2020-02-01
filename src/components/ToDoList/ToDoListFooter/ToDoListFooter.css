@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: "Open Sans", serif;
+}
+
+.todolist_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border: 2px solid #103a65;
+    border-bottom: 4px solid #103a65;
+    padding: 8px 20px;
+    margin: 0 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: #235d9c;
+    color: #fff;
+    outline: none!important;
+}
+
+
+button:hover {
+    border-bottom: 2px solid #103a65;
+    position: relative;
+    top: 2px;
+}
+
+button:active {
+    border-bottom: 2px solid transparent;
+    border-color: transparent;
+    position: relative;
+    top: 2px;
+}
+.btn{
+    padding-top: 10px;
+    color: #fff;
+}
+.btn_clear {
+    cursor: pointer;
+    
+}
+.item_style{
+    padding-right: 10px;
+    padding-top: 10px;
+    color: #fff;
+}
