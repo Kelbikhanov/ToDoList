@@ -71,3 +71,9 @@ display: inline-block;
 .row {
     display: flex;
 }
+.todolist_left p {
+    font-size: 15px;
+    color: white;
+    width: 360px;
+    padding-left: 86px;
+}

@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9bc187f6-8efe-4b51-b5fa-b88b7f0b776f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToDoList/ToDoList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToDoList/ToDoList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToDoList/ToDoList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToDoList/ToDoList.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +51,6 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1295" />
-    <option name="height" value="730" />
-  </component>
   <component name="ProjectId" id="1XJnZNiisBjigeUadzsi0lpWoeT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -65,7 +59,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../weather" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -87,7 +81,7 @@
       <recent name="C:\GitHub\ToDoList\src\components\ToDoList" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -98,8 +92,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
@@ -161,7 +166,8 @@
       <workItem from="1580773122626" duration="213000" />
       <workItem from="1580774214991" duration="647000" />
       <workItem from="1582686234726" duration="595000" />
-      <workItem from="1582687249862" duration="253000" />
+      <workItem from="1582687249862" duration="888000" />
+      <workItem from="1582829488550" duration="634000" />
     </task>
     <servers />
   </component>
@@ -182,25 +188,25 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1582687615769">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1582687812355">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582687615769" />
-    <state width="1493" height="663" key="GridCell.Tab.0.bottom" timestamp="1582687471324">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582687812355" />
+    <state width="1493" height="663" key="GridCell.Tab.0.bottom" timestamp="1582829681409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="663" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582687471324" />
-    <state width="1493" height="663" key="GridCell.Tab.0.center" timestamp="1582687471324">
+    <state width="1493" height="663" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582829681409" />
+    <state width="1493" height="663" key="GridCell.Tab.0.center" timestamp="1582829681409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="663" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582687471324" />
-    <state width="1493" height="663" key="GridCell.Tab.0.left" timestamp="1582687471324">
+    <state width="1493" height="663" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582829681409" />
+    <state width="1493" height="663" key="GridCell.Tab.0.left" timestamp="1582829681409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="663" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582687471324" />
-    <state width="1493" height="663" key="GridCell.Tab.0.right" timestamp="1582687471324">
+    <state width="1493" height="663" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582829681409" />
+    <state width="1493" height="663" key="GridCell.Tab.0.right" timestamp="1582829681409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="663" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582687471324" />
+    <state width="1493" height="663" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582829681409" />
   </component>
 </project>
